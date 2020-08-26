@@ -23,3 +23,5 @@ sudo apt update
 ```bash
 env WINEPREFIX=$HOME/.deepinwine/Deepin-WXWork/ deepin-wine regedit wxwork-font.reg
 ```
+
+发现有部分机器在运行企业微信或QQ时异常崩溃的问题，查看日志发现是因为“create_netconn_socket: Assertion 'server->addr_len' failed.”引起的，这种情况下，使用patch/wininet.dll.so替换原始的文件(/usr/lib/i386-linux-gnu/deepin-wine/)
