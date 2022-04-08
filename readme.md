@@ -14,7 +14,7 @@
 
 - libs安装
     ```bash
-    cd libs && sudo dpkg -i udis86_1.72-2_i386.deb libjpeg62-turbo_1.5.1-2_i386.deb libldap-2.4-2_2.4.45+dfsg-1ubuntu1.10_i386.deb python-dbus-for-22.04.deb python-gobject_3.26.1-2ubuntu1_all.deb  && sudo apt --fix-broken install
+    cd libs && sudo dpkg -i libjpeg62-turbo_1.5.1-2_i386.deb udis86_1.72-2_i386.deb libjpeg62-turbo_1.5.1-2_i386.deb libldap-2.4-2_2.4.45+dfsg-1ubuntu1.10_i386.deb python-dbus-for-22.04.deb python-gobject_3.26.1-2ubuntu1_all.deb  && sudo apt --fix-broken install
     ```
 
 - deepin-wine安装
