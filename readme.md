@@ -14,23 +14,23 @@
 
 - libs安装
     ```bash
-    cd libs && sudo dpkg -i libjpeg62-turbo_1.5.1-2_i386.deb udis86_1.72-2_i386.deb libjpeg62-turbo_1.5.1-2_i386.deb libldap-2.4-2_2.4.45+dfsg-1ubuntu1.10_i386.deb python-dbus-for-22.04.deb python-gobject_3.26.1-2ubuntu1_all.deb  && sudo apt --fix-broken install
+    cd libs && sudo dpkg -i libjpeg62-turbo_1.5.1-2_i386.deb udis86_1.72-2_i386.deb libjpeg62-turbo_1.5.1-2_i386.deb libldap-2.4-2_2.4.45+dfsg-1ubuntu1.10_i386.deb python-dbus-for-22.04.deb python-gobject_3.26.1-2ubuntu1_all.deb || sudo apt --fix-broken install
     ```
 
 - deepin-wine安装
     ```bash
     sudo dpkg -i 1-deepin-fonts-wine_2.18-21_all.deb
-    sudo dpkg -i 2.1.deepin-libwine-without-libodbc1.deb && sudo apt --fix-broken install
-    sudo dpkg -i 2.2-deepin-libwine-dev_2.18-21_i386.deb && sudo apt --fix-broken install
+    sudo dpkg -i 2.1.deepin-libwine-without-libodbc1.deb || sudo apt --fix-broken install
+    sudo dpkg -i 2.2-deepin-libwine-dev_2.18-21_i386.deb || sudo apt --fix-broken install
     sudo dpkg -i 2.2-deepin-libwine-dbg_2.18-21_i386.deb
-    sudo dpkg -i 3.1-deepin-wine32_2.18-21_i386.deb && sudo apt --fix-broken install
+    sudo dpkg -i 3.1-deepin-wine32_2.18-21_i386.deb || sudo apt --fix-broken install
     sudo dpkg -i 3.2-deepin-wine32-preloader_2.18-21_i386.deb
     sudo dpkg -i 4-deepin-wine_2.18-21_all.deb
-    sudo dpkg -i 5-deepin-wine-binfmt_2.18-21_all.deb && sudo apt --fix-broken install
-    sudo dpkg -i 6.1-deepin-wine-plugin_1.0deepin2_i386.deb && sudo apt --fix-broken install
-    sudo dpkg -i 6.2-deepin-wine-plugin-virtual_1.0deepin3_all_ubuntu_22.04.deb --fix-broken install
-    sudo dpkg -i 7-deepin-wine-helper_1.2deepin8_i386.deb --fix-broken install
-    sudo dpkg -i 8-deepin-wine-uninstaller_0.1deepin2_i386.deb --fix-broken install
+    sudo dpkg -i 5-deepin-wine-binfmt_2.18-21_all.deb || sudo apt --fix-broken install
+    sudo dpkg -i 6.1-deepin-wine-plugin_1.0deepin2_i386.deb || sudo apt --fix-broken install
+    sudo dpkg -i 6.2-deepin-wine-plugin-virtual_1.0deepin3_all_ubuntu_22.04.deb || sudo apt --fix-broken install
+    sudo dpkg -i 7-deepin-wine-helper_1.2deepin8_i386.deb || sudo apt --fix-broken install
+    sudo dpkg -i 8-deepin-wine-uninstaller_0.1deepin2_i386.deb || sudo apt --fix-broken install
     ```
 - 安装企业微信/QQ/微信等应用，参考 http://packages.deepin.com/deepin/pool/non-free/d/
 
